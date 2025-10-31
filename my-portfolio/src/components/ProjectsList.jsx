@@ -7,7 +7,7 @@ export default function ProjectsList() {
   const [githubProjects, setGithubProjects] = useState([]);
 
   useEffect(() => {
-    // ✅ Replace "navyakodudhala" with your actual GitHub username
+    
     fetch("https://api.github.com/users/navyakodudhala/repos")
       .then((res) => res.json())
       .then((data) => {

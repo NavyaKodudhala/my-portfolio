@@ -1,7 +1,6 @@
 
 import React from "react";
-import profilePic from "../assets/profile3.jpg"; // Make sure the image is in src/assets folder
-
+import profilePic from "../assets/profile3.jpg"; 
 export default function About() {
   return (
     <section className="flex flex-col md:flex-row items-center justify-center gap-10 py-12 px-6 bg-gray-50 min-h-screen">
